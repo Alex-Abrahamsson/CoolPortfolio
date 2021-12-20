@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scroll-snap-type: y mandatory;
   /*overflow-y: hidden;*/
 }
 /* width */
@@ -23,6 +24,9 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: black;
+}
+section{
+  scroll-snap-align: start;
 }
 
 @keyframes move-background {
