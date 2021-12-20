@@ -351,3 +351,45 @@ hr
 
 
 
+@media only screen and (min-width: 550px)
+{
+  img
+  {
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    z-index: 3;
+    right: 5px;
+    top: 50px;
+  }
+  .container
+  {
+    width: 600px;
+  }
+  #leftSide
+  {
+    border-right: 4px solid #383838;
+  }
+  .skillsLeft
+  {
+    margin-top: 5px;
+    margin-right: 10%;
+    font-size: 14px;
+  }
+  .factsLeft
+  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+  }
+  .dot
+  {
+    margin-left: 15px;
+  }
+  .greenDot
+  {
+    margin-left: 15px;
+  }
+
+}
+
