@@ -1,6 +1,4 @@
-
-html
-{
+html {
   scroll-behavior: smooth;
   overflow-x: hidden;
   /*overflow-y: hidden;*/
@@ -390,6 +388,4 @@ hr
   {
     margin-left: 15px;
   }
-
 }
-
