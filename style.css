@@ -143,19 +143,6 @@ img {
   width: 99vw;
   top: 40%;
 }
-.mine button {
-  background-color: transparent;
-  border-color: #999999;
-  border-radius: 10px;
-  font-size: 24px;
-  color: #999999;
-  transition: all 0.5s;
-}
-.mine button:hover {
-  background-color: #0009;
-  border-color: white;
-  color: white;
-}
 .mine i {
   font-size: 18px;
   color: darkgray;
@@ -206,7 +193,7 @@ hr {
 }
 .container {
   display: grid;
-  height: 97vh;
+  height: 99vh;
   grid-template-columns: 0.9fr 1fr;
   grid-template-areas: "leftSide rightSide";
   grid-gap: 0.2rem;
@@ -217,11 +204,16 @@ hr {
 }
 
 #leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 99vh;
   border-right: 3px solid #383838;
-  padding: 5px;
+  padding-left: 5px;
 }
 .leftFacts {
-  display: flex;
+  display:flex;
+  justify-content: center;
   flex-direction: column;
   height: 21%;
 }
@@ -284,23 +276,37 @@ hr {
   border-radius: 50%;
   display: inline-block;
 }
+
+
 #rightSide {
-  padding-left: 10px;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5px;
+  padding-left: 2px;
 }
 .exp {
-  height: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 35%;
 }
 .education {
-  height: 24%;
+  display: flex;
+  flex-direction: column;
+  height: 25%;
 }
 .interests {
-  height: 14%;
+  height: 20%;
 }
 .references {
-  height: 14%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  height: 15%;
 }
 .socials {
-  height: 10%;
+  height: 15%;
 }
 
 @media only screen and (min-width: 550px) {
