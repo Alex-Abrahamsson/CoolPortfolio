@@ -151,7 +151,7 @@ img {
   background-color: #262626;
 }
 i {
-  margin-left: 20px;
+  margin-right: 15px;
 }
 h1 {
   padding-top: 5px;
@@ -244,6 +244,9 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: left;
+}
+.factsLeft {
+  border: 1px solid red;
 }
 
 .factsRight {
