@@ -245,10 +245,6 @@ hr {
   flex-direction: row;
   justify-content: left;
 }
-.factsLeft {
-  border: 1px solid red;
-}
-
 .factsRight {
   margin-left: 20px;
 }
